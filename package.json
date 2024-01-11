@@ -1,8 +1,5 @@
 {
-  "author": {
-    "name": "Niddu85",
-    "url": "https://github.com/niddu85"
-  },
+  "author": "Niddu85 (https://github.com/niddu85)",
   "bugs": {
     "url": "https://github.com/niddu85/signalr-no-jquery-latest/issues"
   },
@@ -31,8 +28,7 @@
     }
   ],
   "main": "build/signalR.js",
-  "name": "signalr-no-jquery-latest",
-  "readme": "README.md",
+  "name": "@niddu85/signalr-no-jquery-latest",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/niddu85/signalr-no-jquery-latest.git"
@@ -41,5 +37,8 @@
     "build": "babel src --presets babel-preset-es2015 --out-dir build",
     "test": "jest"
   },
-  "version": "2.4.3"
+  "version": "2.4.3",
+  "directories": {
+    "test": "tests"
+  }
 }
