@@ -1,12 +1,12 @@
 {
   "author": {
-    "name": "Pawel",
-    "url": "https://github.com/dvlp"
+    "name": "Niddu85",
+    "url": "https://github.com/niddu85"
   },
   "bugs": {
-    "url": "https://github.com/DVLP/signalr-no-jquery/issues"
+    "url": "https://github.com/niddu85/signalr-no-jquery-latest/issues"
   },
-  "description": "Javascript SignalR client without jQuery dependency",
+  "description": "Javascript SignalR client based on signalr 2.4.3 without jQuery dependency",
   "dependencies": {
     "jquery-deferred": "0.3.1",
     "jquery-param": "0.2.0"
@@ -19,7 +19,7 @@
     "babel-preset-stage-0": "*",
     "jest": "^26.0.1"
   },
-  "homepage": "https://github.com/DVLP/signalr-no-jquery",
+  "homepage": "https://github.com/niddu85/signalr-no-jquery-latest",
   "keywords": [
     "signalr"
   ],
@@ -31,15 +31,15 @@
     }
   ],
   "main": "build/signalR.js",
-  "name": "signalr-no-jquery",
+  "name": "signalr-no-jquery-latest",
   "readme": "README.md",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DVLP/signalr-no-jquery.git"
+    "url": "git+https://github.com/niddu85/signalr-no-jquery-latest.git"
   },
   "scripts": {
     "build": "babel src --presets babel-preset-es2015 --out-dir build",
     "test": "jest"
   },
-  "version": "0.2.0"
+  "version": "2.4.3"
 }
